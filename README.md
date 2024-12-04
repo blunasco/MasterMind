@@ -46,18 +46,18 @@ The making of Mastermind took place in X stages:</br>
 1. Conceptualization</br>
 2. Developing Methods
    a.I started with creating the two methods that generate the main date</br>
-        createNumberToGuess()</br>
-        getUserGuess()</br>
+        &emsp;createNumberToGuess()</br>
+        &emsp;getUserGuess()</br>
    b.This was followed by creating the two corresponding methods that would store the current string of numbers into an integer array.</br>
    I wanted to store the data in an integer array because I thought that it would be fun to treat each digit individually and play around on how else each digit can be used in the future(ideas like the update mentioned above).</br>
-        storeNumberToGuess()</br>
-        storeUserGuess()</br>
+        &emsp;storeNumberToGuess()</br>
+        &emsp;storeUserGuess()</br>
    c.The next two methods compared the arrays returned from storeNumberToGuess() and storeUserGuess() </br>
-        checkCorrectPosition()</br>
-        checkCorrectNumbers()</br>
+        &emsp;checkCorrectPosition()</br>
+       &emsp; checkCorrectNumbers()</br>
    d.The last two methods were created in order to store and provide the user feedback</br>
-        storeGameHistory()</br>
-        showGameHistory()</br>
+        &emsp;storeGameHistory()</br>
+        &emsp;showGameHistory()</br>
 3. Developing the Main Logic
    This stage involved analyzing what "Game Over" means: losing and winning.</br>
    Winning meant that the return from checkCorrectPosition and checkCorrectNumbers are both "4".</br>
