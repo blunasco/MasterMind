@@ -12,7 +12,7 @@ The rules are simple:</br>
   &emsp; &emsp; &emsp; a.the amount of correct numbers </br>
   &emsp; &emsp; &emsp; b.the amount of correct positions</br>
 </br>
-I hope that you enjoy your challenge and keep in mind that sometimes life likes to give you second chances.
+I hope that you enjoy your challenge and keep in mind that just when you think its over, sometimes, life likes to giveSecondChances().
 
 <h2>🛠️Assembling Your Arsenal</h2>
 For you to begin your quest, please ensure that you have the following installed:</br>
