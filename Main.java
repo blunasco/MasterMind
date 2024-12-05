@@ -5,7 +5,7 @@ import java.net.http.HttpResponse;
 import java.util.*;
 
 
-public class Main {
+public class MainExtraRoundExt {
     public static void main(String[] args) {
         int rounds = 0;
         String numberToGuess = createNumberToGuess();
@@ -25,10 +25,12 @@ public class Main {
             }
 
             if (rounds == 10) {
+                storeGameHistory(rounds, userGuess, numberOfCorrectPositions, numberOfCorrectNumbers, roundHistoryList);
                 showGameHistory(roundHistoryList);
-                System.out.println("ROUND "+ rounds + " User Guess: " + userGuess + "\n \t \t Game over. The correct answer was " + numberToGuess + ".");
+                giveSecondChance(userGuessArray, rounds, numberToGuess);
                 break;
             }
+
             storeGameHistory(rounds, userGuess, numberOfCorrectPositions, numberOfCorrectNumbers, roundHistoryList);
             showGameHistory(roundHistoryList);
         }
@@ -140,6 +142,31 @@ public class Main {
             System.out.println(roundHistoryList.get(i));
         }
     }
+
+    //METHOD FOR SECOND CHANCES
+    public static void giveSecondChance(int[] userGuessArray, int rounds, String numberToGuess) {
+        System.out.println("Life saver quest! Find the product of your most recent guess to gain an additional round.");
+        Scanner keyboard = new Scanner(System.in);
+        String productGuessString = keyboard.nextLine();
+        int productGuessNum = Integer.parseInt(productGuessString);
+        int product = 1;
+
+        for (int i = 0; i < 4; i++) {
+            product *= userGuessArray[i];
+        }
+
+        if (productGuessNum == product) {
+            System.out.println("Great mathing! You deserve another chance!");
+            String lifeSaverGuess = getUserGuess(rounds);
+
+            if (lifeSaverGuess.equals(numberToGuess)){
+                System.out.println("You win with the life saving quest!");
+            }
+            else {
+                System.out.println("Better luck next time! Game Over. The correct answer was: " + numberToGuess);
+            }
+        } else {
+            System.out.println("Sharpen up those math skills and try again next time! Game over. The correct answer was: " + numberToGuess);
+        }
+    }
 }
-
-
