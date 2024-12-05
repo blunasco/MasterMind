@@ -16,7 +16,7 @@ I hope that you enjoy your challenge.
 
 <h2>🛠️Assembling Your Arsenal</h2>
 For you to begin your quest, please ensure that you have the following installed:</br>
-1. Java Development Kit</br>
+1. Java Development Kit Version 15</br>
 2. Git</br>
 
 Please enter the following in your command prompt:
