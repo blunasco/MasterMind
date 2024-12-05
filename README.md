@@ -34,10 +34,10 @@ At the end of each game the quest will reveal the ranking of your most to least 
 
 Creating this game has been a really fun and rewarding process - thank you for the opportunity reader.</br>
 </br>
-The making of Mastermind took place in X stages:</br>
+The making of Mastermind took place in 4 stages:</br>
 1. Conceptualization</br>
 2. Developing Methods</br>
-   a.I started with creating the two methods that generate the main date</br>
+   a.I started with creating the two methods that generate the main data</br>
         *&emsp; &emsp; &emsp;createNumberToGuess()</br>*
         *&emsp; &emsp; &emsp; getUserGuess()</br>*
    </br>
@@ -56,7 +56,7 @@ The making of Mastermind took place in X stages:</br>
 3. Developing the Main Logic</br>
    This stage involved analyzing what "Game Over" means: losing and winning.</br>
    Winning meant that the return from checkCorrectPosition and checkCorrectNumbers are both "4".</br>
-   Losing meant that the number was not guessed correctly within 10 rounds.</br>
+   Losing meant that the number was not guessed correctly within 10 rounds(or does it??🤔).</br>
      </br>
 4. Testing</br>
 This was the stage where I came across some bugs and changed some logic in order to address these.</br>
