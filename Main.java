@@ -76,7 +76,7 @@ public class Main {
         Scanner keyboard = new Scanner(System.in);
         String userGuess = keyboard.nextLine();
 
-        while (userGuess.length() != 4 || !userGuess.matches(("[0-7]"))) {
+        while (!userGuess.matches("[0-7]{4}")) {
             System.out.println("Invalid guess. Try again.");
             userGuess = keyboard.nextLine();
         }
@@ -141,4 +141,5 @@ public class Main {
         }
     }
 }
+
 
