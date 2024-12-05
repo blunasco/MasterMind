@@ -12,7 +12,7 @@ The rules are simple:</br>
   &emsp; &emsp; &emsp; a.the amount of correct numbers </br>
   &emsp; &emsp; &emsp; b.the amount of correct positions</br>
 </br>
-I hope that you enjoy your challenge.
+I hope that you enjoy your challenge and keep in mind that sometimes life likes to give you second chances.
 
 <h2>🛠️Assembling Your Arsenal</h2>
 For you to begin your quest, please ensure that you have the following installed:</br>
@@ -24,16 +24,7 @@ Please enter the following in your command prompt:
 
 <h2>New Horizons and Updates</h2>
 The guild has some exciting updates planned to further challenge your mind and gain some insights in your thought process.
-
-<h3>1.❎Multiplying the Fun</h3>
-As the update name suggests, gear up and level up your Arithemetic skills. 
-This new feature will allow you to gain additional rounds at the very last round if you can solve the product of your guess!
-
-For example:
-If your guess (2517), at the last round was incorrect, the quest offers you another chance.
-Solve the multiplication riddle of  (2x5x1x7) to earn one more attempt.
-
-<h3>2.🧠Self Discovery </h3>
+<h3>1.🧠Self Discovery </h3>
 True treasure not lies in conquering the quest, but instead in understanding yourself.
 This update will allow you to uncover your habits like favorite numbers you tend to use.
 At the end of each game the quest will reveal the ranking of your most to least used number.
