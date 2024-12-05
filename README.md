@@ -20,7 +20,7 @@ For you to begin your quest, please ensure that you have the following installed
 2. Git</br>
 
 Please enter the following in your command prompt:
-git clone https: git.....
+`git clone https://github.com/blunasco/MasterMind.git`
 
 <h2>New Horizons and Updates</h2>
 The guild has some exciting updates planned to further challenge your mind and gain some insights in your thought process.
@@ -31,7 +31,7 @@ This new feature will allow you to gain additional rounds at the very last round
 
 For example:
 If your guess (2517), at the last round was incorrect, the quest offers you another chance.
-Solve the multiplication riddle of  (2*5*1*7) to earn one more attempt.
+Solve the multiplication riddle of  (2x5x1x7) to earn one more attempt.
 
 <h3>2.🧠Self Discovery </h3>
 True treasure not lies in conquering the quest, but instead in understanding yourself.
